@@ -1,0 +1,17 @@
+input{
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px;
+}
+
+button{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/841/742/321/bleach-anime-kenpachi-zaraki-wallpaper-preview.jpg" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 100px;
+}

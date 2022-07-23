@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Desafio Extensão",
+  "description": "Desafio de criar uma extensão para navegador",
+  "version": "1",
+  "author": "Adelson Inácio",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icone.png"
+    }
+  },
+  "icons": {
+    "128": "icone.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
