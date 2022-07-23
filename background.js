@@ -3,8 +3,6 @@ chrome.runtime.onInstalled.addListener(function () {
   chrome.tabs.create({ url: "https://www.google.com" });
 });
 
-// background.js
-
 let color = "#000000";
 
 chrome.runtime.onInstalled.addListener(() => {

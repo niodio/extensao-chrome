@@ -25,11 +25,11 @@ function setPageBackgroundColor() {
 }
 
 function setChanges() {
-  document
-    .querySelector(
-      "body > div.L3eUgb > div.o3j99.LLD4me.yr19Zb.LS8OJ > div > img"
-    )
-    .remove();
+  document;
+  // .querySelector(
+  //   "body > div.L3eUgb > div.o3j99.LLD4me.yr19Zb.LS8OJ > div > img"
+  // )
+  // .remove();
   document.querySelector(
     "body > div.L3eUgb > div.o3j99.LLD4me.yr19Zb.LS8OJ > div"
   ).innerHTML = `<img src="https://c4.wallpaperflare.com/wallpaper/542/137/251/bleach-anime-zaraki-kenpachi-wallpaper-preview.jpg" alt="Google" />`;
